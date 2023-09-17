@@ -1,0 +1,109 @@
+.topheader-search{
+    width: 80%;
+    margin: 0 auto;
+}
+.search-input-field{
+    border-radius: 5px 0px 0px 5px;
+}
+.search-input-field:focus{
+    box-shadow: none;
+    outline: 0;
+    border: 1px solid #5d2471;
+}
+.topheader-search-btn{
+    background-color: #5d2471;
+    width: 130px;
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+}
+.topheader-search-btn:hover{
+    background-color: #5d2471;
+    color: #fff;
+}
+.btn-check:checked+.topheader-search-btn, .topheader-search-btn.active, .btopheader-search-btntn.show, .topheader-search-btn:first-child:active, :not(.btn-check)+.topheader-search-btn:active {
+    color: #fff;
+    background-color: #5d2471;
+}
+.topheader-button{
+    border: 1px solid #5d2471;
+    background-color: transparent;
+    color: #5d2471;
+    font-size: 17px;
+    padding: 6px 15px;
+}
+.btn-check:checked+.topheader-button, .topheader-button.active, .topheader-button.show, .topheader-button:first-child:active, :not(.btn-check)+.topheader-button:active {
+    color: #fff;
+    background-color: #5d2471;
+    border-color: 1px solid #5d2471;
+}
+.topheader-button:hover{
+    border: 1px solid #5d2471;
+    background-color: #5d2471;
+    color: #fff;
+}
+.topheader-cart-menu{
+    width: 300px;
+    padding: 15px 10px;
+}
+.topheader-cartitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topheader-cartlist-button,
+.topheader-subtotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topheader-cartitem-allcontent .topheader-cartitem{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 8px;
+}
+.topheader-cartitem-allcontent .topheader-cartitem:last-child{
+    border-bottom: 0px;
+    padding: 0;
+}
+.topheader-subtotal{
+    padding: 10px 0;
+    border-top: 1px solid #c5c5c5;
+}
+.topheader-subtotal h4{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #5d2471;
+}
+.topheader-cartitem-image img{
+    width: 50px;
+}
+.topheader-cartitem-content{
+    text-align: end;
+}
+.topheader-cartitem-content h3{
+    font-size: 18px;
+    color: #5d2471;
+    margin: 0;
+}
+.topheader-cartitem-content p{
+    font-size: 15px;
+    color: #535353;
+    margin: 0;
+}
+.topheader-btn{
+    width: 120px;
+    background-color: #c9336a;
+    border: none;
+}
+.topheader-btn1{
+    background-color: #5d2471;
+}
+.topheader-btn:hover{
+    background-color: #a12a55;
+}
+.topheader-btn1:hover{
+    background-color: rgb(54, 23, 65);
+}
