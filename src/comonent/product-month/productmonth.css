@@ -1,0 +1,58 @@
+.product-month-section{
+    background-color: #ffe4dc;
+    padding-bottom: 70px;
+}
+.product-month-allcontent{
+    text-align: center;
+}
+.product-month-title h1{
+    text-transform: uppercase;
+    color: #5d2471;
+    font-weight: 700;
+    font-size: 35px;
+}
+.product-month-description p{
+    color: #535353;
+    font-weight: 400;
+    font-size: 18px;
+}
+.productmonth-btn{
+    background-color: #5d2471;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.productmonth-btn:hover{
+    background-color: #3d164b;
+    color: #fff;
+}
+.btn-check:checked+.productmonth-btn, .productmonth-btn.active, .productmonth-btn.show, .productmonth-btn:first-child:active, :not(.btn-check)+.productmonth-btn:active {
+    color: #fff;
+    background-color: #3d164b;
+    border-color: none;
+}
+.product-month-allimages{
+    position: relative;
+}
+.productmonth-img{
+    text-align: end;
+}
+.product-month-image1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+.product-month-image1 img{
+    background-color: #5d2471;
+    padding: 10px;
+    width: auto;
+    height: 360px;
+}
+.product-month-image2 img{
+    background-color: #5d2471;
+    padding: 10px;
+    width: auto;
+    height: 400px;
+}

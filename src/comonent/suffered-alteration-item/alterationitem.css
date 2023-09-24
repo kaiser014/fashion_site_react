@@ -1,0 +1,72 @@
+/* 5d2471 */
+/* c9336a */
+.alteration-all-item{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.alteration-item-image{
+    height: 190px;
+    overflow: hidden;
+}
+.alteration-item-image img{
+    width: 100% ;
+}
+.alteration-item-details{
+    padding: 12px 15px;
+    background-color: #fff;
+}
+.alteration-item-details h5{
+    font-size: 18px;
+    color: #5d2471;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+.alteration-item-details p{
+    font-size: 15px;
+    color: #181818;
+    margin: 0;
+    font-weight: 500;
+}
+.alteration-item-details p span{
+    color: #6b6b6b;
+}
+.alterationitem-price-link{
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.item-price p span svg{
+    color: #f3b530;
+    font-size: 15px;
+}
+.item-price p span:last-child{
+    margin-right: 5px;
+}
+.item-price h6{
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.item-link{
+    text-align: end;
+}
+.item-link-hold{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #c9336a;
+    color: #fff;
+    position: relative;
+}
+.item-link-hold svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}

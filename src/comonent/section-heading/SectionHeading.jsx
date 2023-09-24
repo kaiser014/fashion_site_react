@@ -1,16 +1,17 @@
 import React from 'react';
 import './sectionheading.css';
-import { Col, Container } from 'react-bootstrap';
-const SectionHeading = () => {
+import { Row, Col, Container } from 'react-bootstrap';
+const SectionHeading = (props) => {
+    const { subtitle, title, description } = props;
   return (
     <div>
         <Container>
             <Row>
-                <Col xs={12} md={8} lg={6}>
+                <Col xs={12} md={8} lg={7} className='text-center m-auto'>
                     <div className='section-heading'>
-                        <h6>Suffered Alteration</h6>
-                        <h1>Kanchipuram silk sarees</h1>
-                        <p>It is a long established fact that reader will be distracted by this sarees </p>
+                        <h5>{subtitle}</h5>
+                        <h1>{title}</h1>
+                        <p>{description}</p>
                     </div>
                 </Col>
             </Row>
