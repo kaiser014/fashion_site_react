@@ -1,0 +1,41 @@
+.jewelbox-section{
+    margin-top: 70px;
+}
+.jewelbox-all-content{
+    display: flex;
+    align-items: center;
+}
+.jewelbox-image{
+    width: 35%;
+    overflow: hidden;
+}
+.jewelbox-image img {
+    width: auto;
+    height: 224px;
+}
+.jewelbox-content-details{
+    width: 65%;
+    background-image: url('/public/assets/images/saree-add.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px 0px;
+    padding-left: 25px;
+    padding-right: 155px;
+    color: #fff;
+}
+.jewelbox-content-details h4{
+    font-size: 28px;
+    margin: 0;
+}
+.jewelbox-content-details p{
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+}
+.jewelbox-btn{
+    margin-top: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}

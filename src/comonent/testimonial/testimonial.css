@@ -2,3 +2,17 @@
     background-color: #ffe4dc;
     padding: 70px 0;
 }
+.testimonial-section .slick-dots li button:before {
+    font-size: 10px;
+}
+.testimonial-section .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #5d2471;
+}
+.testimonial-section .slick-dots li button:before {
+    color: #5d2471;
+    opacity: .2;
+}
+.testimonial-section .slick-dots{
+    bottom: -35px;
+}
