@@ -12,6 +12,7 @@
 }
 .topheader-search-btn{
     background-color: #5d2471;
+    border: none;
     width: 130px;
     padding: 8px 10px;
     color: #fff;
@@ -19,11 +20,13 @@
 }
 .topheader-search-btn:hover{
     background-color: #5d2471;
+    border: none;
     color: #fff;
 }
 .btn-check:checked+.topheader-search-btn, .topheader-search-btn.active, .btopheader-search-btntn.show, .topheader-search-btn:first-child:active, :not(.btn-check)+.topheader-search-btn:active {
     color: #fff;
     background-color: #5d2471;
+    border: none ;
 }
 .topheader-button{
     border: 1px solid #5d2471;

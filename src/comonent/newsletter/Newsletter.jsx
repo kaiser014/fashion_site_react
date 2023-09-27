@@ -1,23 +1,42 @@
 import React from 'react';
-import { Col, Row, Container } from 'react-bootstrap';
+import { Col, Row, Container, Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagram, faLinkedinIn, faPinterestP, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import './newsletter.css';
 
 const Newsletter = () => {
   return (
-    <div>
+    <div className='newsletter-section'>
         <Container>
-            <Row>
+            <Row className='align-items-center'>
                 <Col lg={5}>
                     <div className='newsletter-social-icon'>
                         <ul>
                             <li>
-                                
+                                <a href='#social-link'><span className='newletter-socialicon'><FontAwesomeIcon icon={faFacebookF}/></span></a>
+                            </li>
+                            <li>
+                                <a href='#social-link'><span className='newletter-socialicon'><FontAwesomeIcon icon={faTwitter}/></span></a>
+                            </li>
+                            <li>
+                                <a href='#social-link'><span className='newletter-socialicon'><FontAwesomeIcon icon={faPinterestP}/></span></a>
+                            </li>
+                            <li>
+                                <a href='#social-link'><span className='newletter-socialicon'><FontAwesomeIcon icon={faInstagram}/></span></a>
+                            </li>
+                            <li>
+                                <a href='#social-link'><span className='newletter-socialicon'><FontAwesomeIcon icon={faLinkedinIn}/></span></a>
                             </li>
                         </ul>
                     </div>
                 </Col>
-                <Col lg={7}>
-
+                <Col lg={3}></Col>
+                <Col lg={4}>
+                    <div className='newsletter-subscription'>
+                        <input type='email' name='email' className='form-control newsletter-subscription-formcontrol' placeholder='Email Address'/>
+                        <Button className='btn newsletter-subscription-btn'><FontAwesomeIcon icon={faPaperPlane}/></Button>
+                    </div>
                 </Col>
             </Row>
         </Container>
@@ -25,4 +44,4 @@ const Newsletter = () => {
   )
 }
 
-export default Newsletter
+export default Newsletter;

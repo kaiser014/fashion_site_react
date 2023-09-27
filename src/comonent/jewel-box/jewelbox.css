@@ -39,3 +39,9 @@
     color: #fff;
     background-color: transparent;
 }
+.jewelbox-btn:hover{
+    margin-top: 10px;
+    border: 1px solid #fff;
+    color: #a12a55;
+    background-color: #fff;
+}

@@ -6,6 +6,8 @@ import ProductMonth from '../comonent/product-month/ProductMonth';
 import JewelleryAlteration from '../comonent/jewellery-alteration/JewelleryAlteration';
 import FeaturedProduct from '../comonent/featured-product/FeaturedProduct';
 import Testimonial from '../comonent/testimonial/Testimonial';
+import Footer from '../comonent/footer/Footer';
+
 const Home = () => {
   return (
     <div>
@@ -16,6 +18,7 @@ const Home = () => {
         <JewelleryAlteration />
         <FeaturedProduct />
         <Testimonial />
+        <Footer />
     </div>
   )
 }

@@ -17,13 +17,13 @@ const TopHeader = () => {
                 <Col lg={8}>
                     <div className='topheader-search'>
                         <Form className="d-flex">
-                            <Form.Control
+                            <input
                             type="search"
                             placeholder="Search"
-                            className="search-input-field"
+                            className="form-control search-input-field"
                             aria-label="Search"
                             />
-                            <button className='btn topheader-search-btn'><FontAwesomeIcon icon={faSearch}/> Search</button>
+                            <Button className='btn topheader-search-btn'><FontAwesomeIcon icon={faSearch}/> Search</Button>
                         </Form>
                     </div>
                 </Col>
