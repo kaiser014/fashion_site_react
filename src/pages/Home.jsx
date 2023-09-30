@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../comonent/header/Header';
+import MobileHeader from '../comonent/mobile-header/MobileHeader';
 import Hero from '../comonent/hero-section/Hero';
 import SufferedAlteration from '../comonent/suffered-alteration/SufferedAlteration';
 import ProductMonth from '../comonent/product-month/ProductMonth';
@@ -8,10 +9,12 @@ import FeaturedProduct from '../comonent/featured-product/FeaturedProduct';
 import Testimonial from '../comonent/testimonial/Testimonial';
 import Footer from '../comonent/footer/Footer';
 
+
 const Home = () => {
   return (
     <div>
         <Header />
+        <MobileHeader />
         <Hero />
         <SufferedAlteration />
         <ProductMonth />

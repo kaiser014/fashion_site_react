@@ -1,18 +1,20 @@
 import React from 'react';
-import TopHeader from '../top-header/TopHeader';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Dropdown, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { DropdownSubmenu, NavDropdownMenu} from "react-bootstrap-submenu";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import './header.css';
-const Header = () => {
+import { faHome, faSearch } from '@fortawesome/free-solid-svg-icons';
+import './mobileheader.css';
+import HeaderCartButton from '../header-cartbutton/HeaderCartButton';
+
+const MobileHeader = () => {
   return (
-    <div className='header-section'>
-        <TopHeader />
-        <Navbar expand="lg" className="header-navbar">
-            <Container>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Nav className="header-navbar-nav">
+    <div className='mobile-header'>
+        <div className='mobile-navbar'>
+            <Navbar expand="lg" className="mobile-header-bgcolor">
+                <Container>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
                         <Nav.Link href="/"><FontAwesomeIcon icon={faHome}/></Nav.Link>
                         <Nav.Link href="#home">About Us</Nav.Link>
                         <NavDropdown title="Cloting" id="basic-nav-dropdown">
@@ -38,10 +40,29 @@ const Header = () => {
                         </NavDropdownMenu>
                         <Nav.Link href="#home">Contact Us</Nav.Link>
                     </Nav>
-            </Container>
-        </Navbar>
+                    <HeaderCartButton />
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </div>
+        <div className='mobile-header-logo'>
+            <div className='mobileheader-logo-image'>
+                <img src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt='Header-logo'/>
+            </div>
+        </div>
+        <div className='mobile-header-search'>
+        <Dropdown>
+            <Dropdown.Toggle className='topheader-searchbutton' id="dropdown-basic">
+                <FontAwesomeIcon icon={faSearch}/>
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu className='topheader-searchbar'>
+                <input type="search" className='form-control' placeholder='Search Here...'/>
+            </Dropdown.Menu>
+        </Dropdown>
+        </div>
     </div>
   )
 }
 
-export default Header
+export default MobileHeader

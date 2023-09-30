@@ -2,3 +2,8 @@
     background-color: #ffe4dc;
     padding: 70px 0;
 }
+@media only screen and (max-width: 600px) {
+    .suffered-section{
+        padding: 30px 0;
+    }
+} 

@@ -70,3 +70,27 @@
     transform: translate(-50%, -50%);
     font-size: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .alteration-item-image {
+        height: 250px;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .alteration-item-image {
+        height: 250px;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .alteration-item-image {
+        height: 210px;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .alteration-item-image {
+        height: 230px;
+        overflow: hidden;
+    }
+}

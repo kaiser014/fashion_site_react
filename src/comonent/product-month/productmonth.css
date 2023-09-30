@@ -56,3 +56,28 @@
     width: auto;
     height: 400px;
 }
+@media only screen and (max-width: 600px) {
+    .product-month-section{
+        padding-bottom: 50px;
+    }
+    .product-month-title h1{
+        font-size: 30px;
+    }
+    .product-month-description p{
+        font-size: 15px;
+    }
+    .productmonth-btn{
+        padding: 8px 24px;
+        font-size: 18px;
+    }
+    .product-month-allimages{
+        margin-top: 30px;
+    }
+    .product-month-image1{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translateY(0%);
+        text-align: center;
+    }
+}

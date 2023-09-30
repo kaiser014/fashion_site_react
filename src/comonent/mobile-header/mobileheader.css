@@ -1,0 +1,102 @@
+.mobile-header-bgcolor{
+    background-color: #faf5ff;
+}
+.mobile-header .mobile-navbar .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.mobile-header .mobile-navbar .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+}
+.mobile-header .mobile-navbar .nav-link{
+    color: #5d2471;
+}
+.mobile-header .mobile-navbar .dropdown-menu{
+    background-color: rgba(93, 36, 113, 0.1);
+    padding: 0;
+}
+.mobile-header .mobile-navbar .dropdown-menu .dropdown-item{
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(93, 36, 113, 0.7);
+}
+.mobile-header .mobile-navbar .dropdown-menu .dropdown-item:last-child{
+    border-bottom: 0px;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #181818;
+    text-decoration: none;
+    background-color: rgba(93, 36, 113, 0.2);
+}
+.mobile-header .mobile-navbar .dropdown-submenu-container .dropdown-menu{
+    background-color: rgba(93, 36, 113, 1);
+    margin: 0;
+}
+.mobile-header .mobile-navbar .dropdown-submenu-container .dropdown-menu .dropdown-item{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.mobile-header .mobile-navbar .dropdown-submenu-container .dropdown-menu .dropdown-item:last-child{
+    border-bottom: 0px;
+}
+.dropdown-item:hover {
+    color: #181818;
+    background-color: rgba(93, 36, 113, 0.3);
+}
+.dropdown-submenu-container{
+    position: relative;
+}
+.dropdown-submenu-container a.dropdown-submenu::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: 1.1em;
+}
+.mobile-header{
+    position: relative;
+}
+.mobile-header-logo{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mobileheader-logo-image img{
+    width: 160px;
+}
+.mobile-header-search{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 5px;
+}
+.mobile-header-search .dropdown-toggle::after {
+    display: none;
+}
+.topheader-searchbutton{
+    background-color: #5d2471;
+    border: none;
+    color: #fff;
+}
+.topheader-searchbutton:hover{
+    background-color: #5d2471;
+    border: none;
+    color: #fff;
+}
+.topheader-searchbutton.show, .topheader-searchbutton:first-child:active, :not(.btn-check)+.topheader-searchbutton:active {
+    color: #fff;
+    background-color: #5d2471;
+    border-color: none;
+}
+.topheader-searchbar{
+    width: 300px;
+    padding: 10px;
+    background-color: #5d2471;
+}
+@media only screen and (min-width: 992px) {
+    .mobile-header{
+        display: none;
+    }
+} 
