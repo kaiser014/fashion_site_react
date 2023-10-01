@@ -7,7 +7,7 @@ import './topheader.css';
 import HeaderCartButton from '../header-cartbutton/HeaderCartButton';
 const TopHeader = () => {
   return (
-    <>
+    <div className='top-header-section'>
         <Container>
             <Row className='py-3 align-items-center'>
                 <Col lg={2}>
@@ -33,7 +33,7 @@ const TopHeader = () => {
                 </Col>
             </Row>
         </Container>
-    </>
+    </div>
   )
 }
 
