@@ -7,7 +7,7 @@ const JewelBox = () => {
     <div className='jewelbox-section'>
         <Container>
             <Row>
-                <Col md={8} className='mx-auto'>
+                <Col md={12} lg={8} className='mx-auto'>
                     <div className='jewelbox-all-content'>
                         <div className='jewelbox-image'>
                             <img src={process.env.PUBLIC_URL + '/assets/images/saree-addimg.jpg'} alt=''/>

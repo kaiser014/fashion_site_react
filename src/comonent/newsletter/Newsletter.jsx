@@ -10,7 +10,7 @@ const Newsletter = () => {
     <div className='newsletter-section'>
         <Container>
             <Row className='align-items-center'>
-                <Col lg={5}>
+                <Col md={5} lg={5}>
                     <div className='newsletter-social-icon'>
                         <ul>
                             <li>
@@ -31,8 +31,8 @@ const Newsletter = () => {
                         </ul>
                     </div>
                 </Col>
-                <Col lg={3}></Col>
-                <Col lg={4}>
+                <Col md={1} lg={2}></Col>
+                <Col md={6} lg={5}>
                     <div className='newsletter-subscription'>
                         <input type='email' name='email' className='form-control newsletter-subscription-formcontrol' placeholder='Email Address'/>
                         <Button className='btn newsletter-subscription-btn'><FontAwesomeIcon icon={faPaperPlane}/></Button>

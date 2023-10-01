@@ -71,3 +71,35 @@
     background-color: #491c5a;
     border-color: #491c5a;
 }
+@media only screen and (max-width: 600px) {
+    .newsletter-social-icon{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .newsletter-social-icon{
+        text-align: center;
+    }
+    .newsletter-social-icon ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .newsletter-social-icon{
+        text-align: start;
+    }
+    .newsletter-social-icon ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .newsletter-social-icon{
+        text-align: start;
+    }
+    .newsletter-social-icon ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}

@@ -80,4 +80,91 @@
         transform: translateY(0%);
         text-align: center;
     }
+    .product-month-image2 img {
+        width: auto;
+        height: 330px;
+    }
+    .productmonth-img {
+        text-align: center;
+    }
+    .product-month-image2{
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .product-month-section{
+        padding-bottom: 50px;
+    }
+    .product-month-title h1{
+        font-size: 30px;
+    }
+    .product-month-description p{
+        font-size: 15px;
+    }
+    .productmonth-btn{
+        padding: 8px 24px;
+        font-size: 18px;
+    }
+    .product-month-allimages{
+        margin-top: 30px;
+    }
+    .product-month-image1 {
+        position: absolute;
+        top: 50%;
+        left: 6%;
+        transform: translateY(-50%);
+    }
+}
+@media only screen and (min-width: 992px) {
+    .product-month-section{
+        padding-bottom: 70px;
+    }
+    .product-month-title h1{
+        font-size: 32px;
+    }
+    .product-month-description p{
+        font-size: 16px;
+    }
+    .productmonth-btn{
+        padding: 10px 26px;
+        font-size: 18px;
+    }
+    .product-month-allimages{
+        margin-top: 0px;
+    }
+    .product-month-image1 {
+        position: absolute;
+        top: 50%;
+        left: 6%;
+        transform: translateY(-50%);
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .product-month-title h1{
+        font-size: 35px;
+    }
+    .product-month-description p{
+        font-size: 17px;
+    }
+    .productmonth-btn{
+        padding: 12px 30px;
+        font-size: 18px;
+    }
+    .product-month-image1 {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translateY(-50%);
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .product-month-title h1{
+        font-size: 40px;
+    }
+    .product-month-image1 {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translateY(-50%);
+    }
 }

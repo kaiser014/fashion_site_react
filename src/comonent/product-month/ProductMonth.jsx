@@ -7,7 +7,7 @@ const ProductMonth = () => {
     <div className='product-month-section'>
         <Container>
             <Row className='align-items-center'>
-                <Col md={5}>
+                <Col md={12} lg={5}>
                     <div className='product-month-allcontent'>
                         <div className='product-month-title'>
                             <h1>Product of the month</h1>
@@ -20,7 +20,7 @@ const ProductMonth = () => {
                         </div>
                     </div>
                 </Col>
-                <Col md={7}>
+                <Col md={9} lg={7} className='mx-auto'>
                     <div className='product-month-allimages'>
                         <div className='productmonth-img product-month-image1'>
                             <img src={process.env.PUBLIC_URL + '/assets/images/monthofproduct1.jpg'} alt='productmonth-img1'/>

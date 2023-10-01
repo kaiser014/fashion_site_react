@@ -9,7 +9,7 @@ const BottomFooter = () => {
     <div className='bottom-footer-section'>
         <Container>
             <Row>
-                <Col md={8} className='mx-auto'>
+                <Col md={10} lg={8} className='mx-auto'>
                     <div className='bottom-footer'>
                       <div className='bottom-footer-content'>
                         <p><FontAwesomeIcon icon={faLock}/> Pay Securely with</p>

@@ -45,3 +45,121 @@
     color: #a12a55;
     background-color: #fff;
 }
+@media only screen and (max-width: 600px) {
+    .jewelbox-section{
+        margin-top: 40px;
+    }
+    .jewelbox-all-content{
+        display: block;
+        align-items: center;
+    }
+    .jewelbox-image{
+        width: 100%;
+        overflow: hidden;
+    }
+    .jewelbox-content-details{
+        width: 100%;
+        padding-right: 50px;
+    }
+    .jewelbox-content-details h4{
+        font-size: 24px;
+        margin: 0;
+    }
+    .jewelbox-content-details p{
+        font-size: 15px;
+        margin: 0;
+        padding: 10px 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .jewelbox-section{
+        margin-top: 50px;
+    }
+    .jewelbox-all-content{
+        display: block;
+        text-align: center;
+    }
+    .jewelbox-image{
+        width: 100%;
+        overflow: hidden;
+    }
+    .jewelbox-content-details{
+        width: 100%;
+        padding-right: 50px;
+    }
+    .jewelbox-content-details h4{
+        font-size: 24px;
+        margin: 0;
+    }
+    .jewelbox-content-details p{
+        font-size: 15px;
+        margin: 0;
+        padding: 10px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .jewelbox-all-content{
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+    .jewelbox-image{
+        width: 100%;
+        overflow: hidden;
+    }
+    .jewelbox-content-details{
+        width: 100%;
+        padding: 30px 0px;
+        padding-right: 90px;
+        padding-left: 25px;
+    }
+    .jewelbox-content-details h4{
+        font-size: 24px;
+        margin: 0;
+    }
+    .jewelbox-content-details p{
+        font-size: 15px;
+        margin: 0;
+        padding: 10px 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .jewelbox-section{
+        margin-top: 70px;
+    }
+    .jewelbox-image{
+        width: 45%;
+        overflow: hidden;
+    }
+    .jewelbox-content-details{
+        width: 55%;
+        padding: 30px 0px;
+        padding-right: 90px;
+        padding-left: 25px;
+    }
+    .jewelbox-content-details h4{
+        font-size: 24px;
+        margin: 0;
+    }
+    .jewelbox-content-details p{
+        font-size: 15px;
+        margin: 0;
+        padding: 10px 0;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .jewelbox-content-details{
+        width: 55%;
+        padding: 30px 0px;
+        padding-right: 115px;
+        padding-left: 25px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .jewelbox-content-details{
+        width: 55%;
+        padding: 30px 0px;
+        padding-right: 140px;
+        padding-left: 25px;
+    }
+}
